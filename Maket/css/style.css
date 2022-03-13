@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'DM Sans';
+    src: url(../fonts/DMSans-Medium.ttf) format('truetype');
+    src: url(../fonts/DMSans-Regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+body {
+    background-color: #e5e5e5;
+}
+header {
+    margin: auto;
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.header-logo {
+    background-image: url(../image/hs..svg);
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 48px;
+}
+.nav-bar{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+}
+.nav-bar ul li:not(:last-child){
+    margin-right: 19px;
+}
+.nav-bar ul li a{
+    font-family: 'DM Sans';
+    font-size: 22px;
+    color: #181717;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+}
+main {
+    width: 1120px;
+    margin: auto;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 170px;
+}
+.info{
+    height: 370px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name {
+    width: 360px;
+    font-weight: 500px;
+    font-size: 60px;
+    color: #181717;
+    line-height: 97.2%;
+    letter-spacing: -0.03em;
+}
+.discription {
+    font: 400 32px 'DM Sans';
+    color: #606060;
+    margin-top: 50px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+}
+.arrow{
+    background-image: url(../image/Arrow.svg);
+    background-size: cover;
+    width: 34px;
+    height: 39px;
+}
+.projects {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-style: normal;
+    height: 400px;
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.info-projects{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.portfolio-title{
+    font-size: 24px;
+    color: #181717;
+    margin-bottom: 25px;
+}
+.portfolio-info{
+    font-size: 22px;
+    font-weight: 400;
+    color: #181717;
+    line-height: 121.5%;
+    letter-spacing: -0.03em;
+}
+.portfolio-info:last-child{
+    color: #606060;
+    margin-top: 40px;
+}
+.link-project a{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 121.5%;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    text-decoration-line: underline;
+    color: #181717;
+}
+.projects-photo {
+    background-color: #606060;
+    width: 640px;
+    height: 365px;
+}
+.bottom-line{
+    width: 1115px;
+    height: 2px;
+    background-color: #181717;
+    margin: auto;
+    margin-top: 106px;
+    margin-bottom: 114px;
+}
+footer{
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'DM Sans';
+    font-size: 22px;
+    font-weight: 500;
+    color: #181717;
+    font-style: normal;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    margin-bottom: 70px;
+}
+.more-about{
+    display: flex;
+    width: 1120px;
+    margin-top: 170px;
+    height: 570px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    width: 575px;
+}
+.my-photo {
+    width: 563px;
+    height: 403px;
+    background-color: #606060;
+    transform: matrix(0, 1, -1, 0, 0, 0);
+    margin: auto;
+}
+.skills{
+    margin-top: 91px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+}
+.skills-container{
+    display: flex;
+}
+.hs{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 121.5%;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    text-decoration-line: underline;
+    color: #181717;
+    margin-right: 63px;
+    width: 124px;
+}
+.text-skills{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    color: #181717;
+    line-height: 121.5%;
+    letter-spacing: -0.03em;
+    width: 436px;
+}
+.contact-me{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    display: flex;
+    margin-bottom: 139px;
+}
+.contact-me .ctc{
+    display: flex;
+    width: 347px;
+    height: 71px;
+    margin-right: 322px;
+    position: relative;
+}
+.arrow2{
+    background-image: url(../image/Arrow.svg);
+    background-size: cover;
+    width: 21px;
+    height: 24px;
+    transform: rotate(-90deg);
+    position: absolute;
+    margin: 46px     64px 4px 259px;
+}
+}
+footer:last-child p{
+    color: #2429AF;
+}
