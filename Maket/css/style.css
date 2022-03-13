@@ -25,18 +25,18 @@ header {
     width: 64px;
     height: 48px;
 }
-.nav-bar{
+.menu{
     margin-top: auto;
     margin-bottom: auto;
 }
-.nav-bar ul {
+.menu ul {
     display: flex;
     list-style-type: none;
 }
-.nav-bar ul li:not(:last-child){
+.menu ul li:not(:last-child){
     margin-right: 19px;
 }
-.nav-bar ul li a{
+.menu ul li a{
     font-family: 'DM Sans';
     font-size: 22px;
     color: #181717;
@@ -70,7 +70,7 @@ main {
     line-height: 97.2%;
     letter-spacing: -0.03em;
 }
-.discription {
+.description {
     font: 400 32px 'DM Sans';
     color: #606060;
     margin-top: 50px;
@@ -183,7 +183,7 @@ footer{
 .skills-container{
     display: flex;
 }
-.hs{
+.skill-h{
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
@@ -216,12 +216,15 @@ footer{
     display: flex;
     margin-bottom: 139px;
 }
-.contact-me .ctc{
+.contact-me .contact-box{
     display: flex;
     width: 347px;
     height: 71px;
     margin-right: 322px;
     position: relative;
+}
+.contact-me p{
+    margin: auto;
 }
 .arrow2{
     background-image: url(../image/Arrow.svg);
@@ -232,7 +235,6 @@ footer{
     position: absolute;
     margin: 46px     64px 4px 259px;
 }
-}
-footer:last-child p{
+.about-footer p{
     color: #2429AF;
 }
