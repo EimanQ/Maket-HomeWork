@@ -64,6 +64,7 @@ main {
 }
 .name {
     width: 360px;
+    font-family: 'DM Sans';
     font-weight: 500px;
     font-size: 60px;
     color: #181717;
@@ -87,7 +88,6 @@ main {
     font-family: 'DM Sans';
     font-weight: 500;
     font-style: normal;
-    height: 400px;
     width: 1120px;
     display: flex;
     justify-content: space-between;
@@ -161,7 +161,6 @@ footer{
 }
 .container {
     display: flex;
-    justify-content: space-between;
 }
 .about-info{
     width: 575px;
@@ -172,6 +171,7 @@ footer{
     background-color: #606060;
     transform: matrix(0, 1, -1, 0, 0, 0);
     margin: auto;
+    margin-left: 40px;
 }
 .skills{
     margin-top: 91px;
@@ -233,7 +233,7 @@ footer{
     height: 24px;
     transform: rotate(-90deg);
     position: absolute;
-    margin: 46px     64px 4px 259px;
+    margin: 46px 64px 4px 259px;
 }
 .about-footer p{
     color: #2429AF;
